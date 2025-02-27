@@ -4,6 +4,9 @@ import os
 import sys
 
 
+
+# Registering models with their respective admins
+
 def main():
     """Run administrative tasks."""
     os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'djangoproj.settings')
